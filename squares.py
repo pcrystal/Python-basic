@@ -10,19 +10,11 @@ print(squares)
 
 
 a = lambda
-#
-#>>> sum = lambda x:y , x+y
-#Traceback (most recent call last):
-#  File "<stdin>", line 1, in <module>
-#NameError: name 'x' is not defined
 #>>> sum = lambda x,y: x+y
 #>>> sum (6,6)
 #12
 #>>> f2 = lambda x,y,z: x+y/z
 #>>> f2(7+6/2)
-#Traceback (most recent call last):
-#  File "<stdin>", line 1, in <module>
-#TypeError: <lambda>() missing 2 required positional arguments: 'y' and 'z'
 #>>> f2(7,6,2)
 #10.0
 #>>> p = lambda x: print(x)
@@ -31,10 +23,6 @@ a = lambda
 #>>> m = lambda y,q: print(y+q)
 #>>> m(3,6)
 #9
-#>>> print(items)
-#Traceback (most recent call last):
-#  File "<stdin>", line 1, in <module>
-#NameError: name 'items' is not defined
 #>>> items = [1,2,3,4,5]
 #>>> print(items)
 #[1, 2, 3, 4, 5]
